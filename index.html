@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.1/knockout-debug.js" integrity="sha256-sz3IPtwHtumV/43Q7I4ldWQhuOlBiwIi5uigqzDQyoo=" crossorigin="anonymous"></script>
+        <script src="/src/controllers/search-controller.js"></script>
+    </head>
+    <body>
+        <div data-bind="text: message"></div>
+        <div><button data-bind="click: clickMe">Click Me</button></div>
+        <script>
+            ko.applyBindings(new SearchController());
+        </script>
+    </body>
+</html>

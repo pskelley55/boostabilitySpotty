@@ -1,0 +1,20 @@
+{
+  "name": "spotty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc && lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/knockout": "^3.4.39",
+    "@types/whatwg-fetch": "0.0.33",
+    "@types/whatwg-streams": "0.0.2",
+    "lite-server": "^2.2.2",
+    "typescript": "^2.1.6"
+  },
+  "dependencies": {}
+}
