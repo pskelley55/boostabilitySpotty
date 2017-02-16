@@ -1,4 +1,4 @@
-export class SearchController {
+class SearchController {
     public message:KnockoutObservable<string> = ko.observable("Hello World");
 
     public clickMe(): void {
