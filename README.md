@@ -5,7 +5,7 @@ Thanks for applying to Boostability. We want Boostability to be a match for you 
 The following problem has no *right* answer. We just want to know what you would do. This exercise is not timed but we expect it to: 
 
 - Be complete (we don't need cross-browser compatibility and we will test in the latest version of Chrome).
-- Be submitted with commits to a git repo (don't rebase and don't push to a remote).
+- Have a useful commit history (don't make one big commit at the end)
 - Be your own work (avoid JS frameworks).
 - Be styled a little (you can use custom CSS or a CSS framework).
 
