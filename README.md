@@ -11,13 +11,11 @@ The following problem has no *right* answer. We just want to know what you would
 
 ## The Scenario
 
-Spotify is great. We want to allow our users to search for artists on Spotify. 
+Spotify is great. We want our users to search for artists on Spotify. 
 
 We want to: 
 
-- Allow the user to search for an artist ([Spotify API reference](https://developer.spotify.com/web-api/endpoint-reference/) )
-- Display the top two matching artists
-- Show the two most popular albums for the artists
+- Create a search for a artist on spotify ([Spotify API reference](https://developer.spotify.com/web-api/endpoint-reference/) )
 
 ## Starting Point
 
@@ -33,10 +31,6 @@ We started you with:
 
     ```
     https://api.spotify.com/v1/search?q=national&type=artist
-    ```
-- Get the albums for an artist using this URL: 
-    ```
-    https://api.spotify.com/v1/artists/{id}/albums
     ```
 - Use the [fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 - Use the HTML5 [promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
