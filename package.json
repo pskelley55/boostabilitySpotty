@@ -14,5 +14,7 @@
     "lite-server": "^2.2.2",
     "typescript": "2.2.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "handlebars": "^4.0.8"
+  }
 }
